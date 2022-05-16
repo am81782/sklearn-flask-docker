@@ -1,3 +1,9 @@
+Mój dockerfile trenuje model. Aby strona url działała, należy 'puścić' poniższego Docker Build (docker build --tag chrisalbon/sklearn-flask-docker .), następnie Docker run (docker run -p 3000:3333 -d --name sklearn-flask-docker chrisalbon/sklearn-flask-docker:latest).
+
+
+
+
+
 # sklearn-flask-docker
 An example of deploying a sklearn model using Flask using a Docker container.
 
